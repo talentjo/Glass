@@ -1,0 +1,57 @@
+.background {
+  background-image: url('../../images/bg.svg');
+  background-size: cover;
+  height: 75vh;
+}
+
+.question-btn {
+  background-color:#09097c !important;
+  border-color:black !important;
+  color:white !important;
+  text-align: center;
+  max-width: 460px;
+  height: 50px;
+  margin: 14px 42px !important;
+}
+
+.submit-btn {
+  background-color:black !important;
+  color:white !important;
+  text-align: center;
+  margin: 14px 42px !important;
+}
+
+.mt-80 {
+  margin-top: 80px !important;
+}
+
+.dropdown-toggle {
+  width: 100% !important;
+  display: flex;
+
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 21.255em;
+  margin-top: 7px;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent;
+}
+
+.card-body {
+  height:500px;
+  overflow:auto;
+}
+
+.card {
+  font-size: 25px;
+}
+
+.list-group-item{
+  cursor: pointer;
+}
